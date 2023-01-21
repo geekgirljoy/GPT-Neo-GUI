@@ -1,0 +1,15 @@
+
+#python function to add 2 numbers, include comments
+def sum(a,b):
+    """
+    Add 2 numbers, return the sum.
+
+    :param a: the first number
+    :param b: the second number
+    :return: the sum of the two numbers
+    """
+    return a + b
+
+print(sum(4,5))
+print(sum(8,10))
+

@@ -1,0 +1,13 @@
+
+Provide an NPC description with sections - (name, appearance, background, key info etc.) for a female human Necromancer named Agnes the Unholy. She weilds scythe made from bones.
+
+This NPC is for my second Necromancer, and she's the one I'm least happy with as a model. I think I'm probably going to have to redo my entire project if I want to keep her at a manageable size. This particular model is very detailed and I'd love to just be able to slap some of her details on her as an image rather than a mod.
+
+The way I've modeled her is by modeling her head and then adding her face to it. Then I've just duplicated the facial features on the other side of the head, and put that in the "head" position. Then I've added the rest of the head, her shoulders, hips, and legs. She also has some bits of fur on her hands and feet, which makes her look very realistic.
+
+This is my first time modeling a NPC character, so I'm going to have to do some research on it before posting my first finished product.
+
+What is the purpose of this character?
+
+A necromancer, whose primary job is to resurrect the dead. She can be a teacher of the occult, or be more of an evil sorcerer. I plan on having her be more of the evil one, but for the sake of being
+

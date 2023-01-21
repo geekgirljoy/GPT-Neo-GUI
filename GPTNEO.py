@@ -61,6 +61,7 @@ print("GPT-Neo Model "+json_config["model"]+" Loading...")
 # Load the EleutherAI/gpt-neo-size model
 tokenizer = AutoTokenizer.from_pretrained(json_config["model"])  # Load/Download the tokenizer
 model = AutoModelForCausalLM.from_pretrained(json_config["model"])  # Load/Download the model
+current_model = json_config["model"]
 
 # Announce the model has been loaded, yay we made it! :D
 print("Model Loaded!")
@@ -96,3 +97,11 @@ while json_config["runGPTLoop"] == 'true':
 
     time.sleep(5) # sleep for 5 seconds
     json_config = CheckConfigFileJSON() # check the config file again
+
+    if json_config["model"] != current_model:
+        print("Model Changed! Reloading Model, please wait...")
+        # Load the EleutherAI/gpt-neo-size model
+        tokenizer = AutoTokenizer.from_pretrained(json_config["model"])
+        model = AutoModelForCausalLM.from_pretrained(json_config["model"])
+        current_model = json_config["model"]
+        print("Model Loaded!")

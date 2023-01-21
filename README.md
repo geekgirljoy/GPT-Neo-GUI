@@ -100,7 +100,7 @@ Make sure the GPT-NEO agent is running. It should be in it's own terminal window
 
 ![GPT-NEO Terminal Agent Screenshot](gui/repo/Terminal_1.jpg)
 
-If it is not running, make sure you ran GPTNEO.py in addition to [GPTNEOGUI.py](GPTNEOGUI.py) or [GPTNEOGUI.pyw](GPTNEOGUI.pyw).
+If it is not running, make sure you ran [GPTNEO.py](GPTNEO.py) in addition to [GPTNEOGUI.py](GPTNEOGUI.py) or [GPTNEOGUI.pyw](GPTNEOGUI.pyw).
 
 Once the GPT-NEO detects the input, it will say "Input Text: " followed by the input text and will begin generating the output.
 

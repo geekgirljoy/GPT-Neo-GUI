@@ -74,7 +74,7 @@ py GPTNEOGUI.pyw
 ```
 Or by double clicking the [GPTNEOGUI.pyw](GPTNEOGUI.pyw) file in the folder.
 
-You only need to run GPTNEOGUI.py or GPTNEOGUI.pyw, the .pwy just trys to spawn the program without a visable terminal.
+You only need to run GPTNEOGUI.py or GPTNEOGUI.pyw, the .pyw just trys to spawn the program without a visable terminal.
 
 
 # Using GPT-NEO GUI

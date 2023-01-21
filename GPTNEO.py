@@ -50,7 +50,7 @@ input_file_name = json_config["input_file"] # Get the input file name from the c
 output_file_name = json_config["output_file"] # Get the output file name from the config file
 
 # Notify the user that the script is starting and that it will take a while to download and or load the model
-print("I this is the first time you are running this script, it will take a while to download the model.")
+print("If this is the first time you are running this script, it will take a while to download the model.")
 print("Especially if you didn't run DownloadModels.py first.")
 print("The largest model is like 10 GB in size... so be patient for it to load or download.")
 print("If/After the model is downloaded, the script will run much faster but... expect it to take like 5-10 minutes to load the model.")

@@ -113,7 +113,7 @@ Once the output is generated, it will say "Output Text: " followed by the output
 
 ### If you press generate and never get any output other than your input.
 
-You input prompt is probably too long, try shortening it OR increase the Max Length in the GPT-NEO GUI settings.
+Your input prompt is probably too long, try shortening it OR increase the Max Length in the GPT-NEO GUI settings.
 
 ![GPT-NEO Settings](gui/repo/GUI_3.jpg)
 

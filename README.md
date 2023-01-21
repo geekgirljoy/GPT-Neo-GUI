@@ -35,7 +35,7 @@ Then, install the python environment requirements & dependencies (this may take 
 pip install -r requirements.txt
 ```
 
-Next you install the GPT-NEO model by running the DownloadModels.py script (this WILL take a while to complete):
+Next you install the GPT-NEO model by running the [DownloadModels.py](DownloadModels.py) script (this WILL take a while to complete):
 
 ```
 py DownloadModels.py
